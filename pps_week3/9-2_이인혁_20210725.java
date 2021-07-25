@@ -1,0 +1,27 @@
+package week3;
+
+
+// 9-2
+/*
+public class DiameterBinaryTree {
+
+}
+
+class Solution {
+    
+    int answer=0;
+    public int diameterOfBinaryTree(TreeNode root) {
+        if(root==null) return 0;
+        DFS(root);
+        return answer;
+    }
+    
+    public int DFS(TreeNode root){
+        if(root==null) return 0;
+        int leftSum = DFS(root.left);
+        int rightSum = DFS(root.right);
+        answer = Math.max(answer, leftSum+rightSum);
+        return Math.max(leftSum,rightSum)+1;
+    }
+}
+*/
